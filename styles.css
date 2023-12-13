@@ -1,0 +1,65 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: darkgray;
+}
+
+#container {
+  width: 420px;
+  background-color:rgb(65, 65, 65);
+  border-radius: 20px;
+  padding: 0px 15px 0px 15px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+}
+
+h1 {
+  background-color: rgb(34, 34, 34);
+  text-align: center;
+  color: rgb(207, 207, 207);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: square;
+  margin: 20px 0 20px 0;
+  color:rgb(255, 255, 255);
+}
+
+input[type=text] {
+  border: 1px solid #ff0000;
+  background-color: rgb(207, 207, 207);
+  padding: 5px;
+  width: 300px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+button {
+  border: 1px solid #ff0808;
+  background-color: rgb(207, 207, 207);
+  margin-left: 15px;
+  padding: 5px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+a:visited {
+  color: #ff9090;
+}
+a:hover {
+  color: rgb(158, 1, 1);
+}
+a:active {
+  color: blue;
+}
